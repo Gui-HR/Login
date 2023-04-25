@@ -7,7 +7,9 @@
 }
 
 :root{
-    cor-base: #F5B776;
+    --cor-base: #F5B776;
+    --cor-secu: #2F88A8;
+    --cor-comp: #76D3F5;
     
 }
 
@@ -16,9 +18,46 @@ html{
 }
 
 body{
-    background-color: ;
+    background-color: var(--cor-base);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 main{
-    background-color:white;
+    width: 50vw;
+    background-color: white;
+    margin: 70px auto;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+main h1{
+    text-align: center;
+    margin: 20px 0px;
+}
+
+main #pattern{
+    margin: -10px -10px 0px -10px;
+    border-radius: 15px 15px 0px 0px;
+    height: 220px;
+    background: white url(../pattern-build.jpg) center  no-repeat;
+    background-size: cover;
+}
+
+form .dados{
+    border-radius: 5px;
+    height: 40px;
+    background-color: var(--cor-comp);
+    margin: 8px;
+}
+
+.dados span{
+    font-size: 2.5em;
+}
+
+.dados input{
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
+    
 }

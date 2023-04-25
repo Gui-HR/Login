@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    cor-base: #F5B776;
+    
+}
+
+html{
+    height: 100vh;
+}
+
+body{
+    background-color: ;
+}
+
+main{
+    background-color:white;
+}

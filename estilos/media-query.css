@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    body{
+        background-image: linear-gradient(to top, var(--cor-secu), var(--cor-base));
+    }
+
+    main{
+        width: 80vw;
+    }
+
+    #imagem{
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    #acesso{
+        float: right;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    main{
+        width: 950px;
+    }
+
+    #imagem{
+        float: right;
+        width: 50%;
+
+    }
+
+    #acesso{
+        float: left;
+        width: 50%;
+    }
+}

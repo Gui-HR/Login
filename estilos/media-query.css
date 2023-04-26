@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    main{
+        width: 80vw;
+        height: 290px;
+    }
+
+    main #foto{
+        background-position: left bottom;
+        float: left;
+        width: 35%;
+        height: 100%;
+    }
+
+    main #formulario{
+        float: right;
+        width: 65%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    main{
+        width: 950px;
+        height: 350px;
+    }
+
+    main #foto{
+        float: right;
+        width: 50%;
+    }
+
+    main #formulario{
+        margin: 30px 0px;
+        float: left;
+        width: 50%;
+    }
+}
